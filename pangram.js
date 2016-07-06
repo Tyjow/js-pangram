@@ -1,20 +1,20 @@
 //
 // This is only a SKELETON file for the "Pangram" exercise. It's been provided as a
 // convenience to get you started writing code faster.
-// Make sure to look at test.script.js--that should give you some hints about what is
+// Make sure to look at pangram.spec.js--that should give you some hints about what is
 // expected here.
 
 'use strict';
 
-var Pangram = function(candidate) {
+function Pangram(textToTest) {
+    this.textToTest = textToTest;
 
-  return {
-    isPangram: function () {
-    //
-    // YOUR CODE GOES HERE
-    //
-    }
-  };
-};
+    this.isPangram = function () {
 
-module.exports = Pangram;
+
+        /*
+            Put your code here, you can access the code in variable : this.textToTest
+        */
+
+  }
+}
