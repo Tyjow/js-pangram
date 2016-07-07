@@ -17,7 +17,7 @@ describe('Pangram()', function()  {
     expect(pangram.isPangram()).toBe(false);
   });
 
-  xit("another missing character 'x'", function() {
+  it("another missing character 'x'", function() {
     var pangram = new Pangram("the quick brown fish jumps over the lazy dog");
     expect(pangram.isPangram()).toBe(false);
   });

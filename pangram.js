@@ -11,6 +11,8 @@ function Pangram(textToTest) {
 
     this.isPangram = function () {
 
+    	var pangram = this.textToTest.startsWith();
+    	return pangram;
 
         /*
             Put your code here, you can access the code in variable : this.textToTest
